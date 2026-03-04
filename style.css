@@ -8,13 +8,14 @@ font-family:Arial, Helvetica, sans-serif;
 body{
 line-height:1.6;
 background:#f4f6f9;
+color:#333;
 }
 
 /* NAVBAR */
 
 header{
 background:#0f172a;
-padding:20px 10%;
+padding:15px 8%;
 position:sticky;
 top:0;
 }
@@ -27,6 +28,7 @@ align-items:center;
 
 .logo{
 color:white;
+font-size:22px;
 }
 
 .nav-links{
@@ -48,7 +50,7 @@ color:#38bdf8;
 /* HERO */
 
 .hero{
-height:90vh;
+height:80vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -56,15 +58,16 @@ align-items:center;
 background:linear-gradient(135deg,#2563eb,#06b6d4);
 color:white;
 text-align:center;
+padding:20px;
 }
 
 .hero h1{
-font-size:50px;
+font-size:42px;
 margin-bottom:10px;
 }
 
 .hero p{
-font-size:20px;
+font-size:18px;
 margin-bottom:20px;
 }
 
@@ -80,11 +83,13 @@ font-weight:bold;
 /* SECTIONS */
 
 section{
-padding:80px 10%;
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
 }
 
 h2{
-margin-bottom:20px;
+margin-bottom:15px;
 color:#0f172a;
 }
 
@@ -93,14 +98,14 @@ color:#0f172a;
 .skills-container{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
+gap:15px;
 }
 
 .skill-card{
 background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+padding:15px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 /* PROJECTS */
@@ -108,25 +113,30 @@ box-shadow:0 5px 10px rgba(0,0,0,0.1);
 .projects-container{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+gap:15px;
 }
 
 .project-card{
 background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+padding:18px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 transition:0.3s;
 }
 
 .project-card:hover{
-transform:translateY(-8px);
+transform:translateY(-5px);
 }
 
 /* CONTACT */
 
+#contact{
+text-align:center;
+}
+
 #contact a{
 color:#2563eb;
+text-decoration:none;
 }
 
 /* FOOTER */
@@ -135,5 +145,6 @@ footer{
 background:#0f172a;
 color:white;
 text-align:center;
-padding:20px;
+padding:15px;
+margin-top:20px;
 }
