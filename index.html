@@ -2,74 +2,97 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-<meta name="description" content="Portfolio of Sushmitha web developer">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sushmitha | Portfolio</title>
 
-<meta name="keywords" content="web developer portfolio html css">
-
-<meta name="author" content="Sushmitha">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Your Name</h1>
+<nav>
+<h2 class="logo">Sushmitha</h2>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
 </header>
 
-<main>
-    <form>
+<section id="home" class="hero">
 
-<label>Name</label>
-<input type="text" required>
+<h1>Hi, I'm Sushmitha</h1>
 
-<label>Email</label>
-<input type="email" required>
+<p>Web Developer | Machine Learning Enthusiast</p>
 
-<label>Message</label>
-<textarea></textarea>
+<a href="#projects" class="btn">View My Work</a>
 
-<button type="submit">Send</button>
-
-</form>
-
-<section id="home">
-<h2>Home</h2>
-<p>Hello I am a developer</p>
 </section>
 
 <section id="about">
+
 <h2>About Me</h2>
-<p>I am learning web development</p>
+
+<p>
+I am a computer science student passionate about Web Development and Machine Learning.
+I enjoy building real-world applications and continuously improving my programming skills.
+</p>
+
 </section>
 
 <section id="projects">
+
 <h2>Projects</h2>
+
+<div class="projects-container">
+
+<div class="card">
+<h3>AI Fake Profile Detector</h3>
+<p>Machine learning model that detects fake social media profiles.</p>
+</div>
+
+<div class="card">
+<h3>Student Performance Predictor</h3>
+<p>Predicts student grades using machine learning algorithms.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>A responsive portfolio website built using HTML and CSS.</p>
+</div>
+
+</div>
+
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
-</section>
-<img 
-src="assets/images/profile.jpg"
-alt="Photo of Sushmitha developer"
-width="300"
-height="300"
-loading="lazy">
 
-</main>
+<h2>Contact</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
 
 <footer>
-<p>© 2026 Your Name</p>
+
+<p>© 2026 Sushmitha</p>
+
 </footer>
 
 </body>
